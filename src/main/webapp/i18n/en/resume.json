@@ -1,0 +1,17 @@
+{
+    "shultzspaceApp": {
+        "resume" : {
+            "home": {
+                "title": "Resumes",
+                "createLabel": "Create a new Resume",
+                "createOrEditLabel": "Create or edit a Resume"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Resume {{ id }}?"
+            },
+            "detail": {
+                "title": "Resume"
+            }
+        }
+    }
+}

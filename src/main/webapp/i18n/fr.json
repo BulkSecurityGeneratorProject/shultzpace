@@ -1,0 +1,341 @@
+{
+    "global": {
+        "title": "JHipster",
+        "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
+        "menu": {
+            "home": "Accueil",
+            "account": {
+                "main": "Compte",
+                "settings": "Profil",
+                "password": "Mot de passe",
+                "sessions": "Sessions",
+                "tracker": "Suivi des utilisateurs",
+                "metrics": "Métriques",
+                "logs": "Logs",
+                "audits": "Audits",
+                "login": "S'authentifier",
+                "logout": "Déconnexion",
+                "apidocs": "API"
+            },
+            "admin": "Administration",
+            "language": "Langue"
+        },
+        "language": {
+            "da": "Danois",
+            "en": "Anglais",
+            "fr": "Français",
+            "de": "Allemand",
+            "pl": "Polonais",
+            "cn": "Chinois"
+        }
+    },
+    "index": {
+        "title": "index"
+    },
+    "main": {
+        "title": "Bienvenue, Java Hipster !",
+        "subtitle": "Ceci est votre page d'accueil",
+        "callout": "Il s'agit d'un site personnel. Je suis un développeur vivant à New York. Voici quelques-unes de mes images, n'hésitez pas à les traîner.",
+        "logged": {
+            "message": "Vous êtes connecté en tant que \"{{username}}\".",
+            "authenticated": "Si vous voulez vous <a href=\"#/login\">connecter</a>, vous pouvez utiliser les comptes par défaut : <br/> - Administrateur (nom d'utilisateur=\"admin\" et mot de passe =\"admin\") <br/> - Utilisateur (nom d'utilisateur=\"user\" et mot de passe =\"user\")."
+        },
+        "question": "Si vous avez des questions à propos de JHipster:",
+        "link": {
+            "homepage": "Page d'accueil de JHipster",
+            "stackoverflow": "JHipster sur Stack Overflow",
+            "bugtracker": "JHipster bug tracker",
+            "contact": "Contactez-nous sur Twitter @java_hipster"
+        },
+        "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+        "github": "Github"
+    },
+    "resume":{
+        "title": "Resumes",
+        "summary": "Summary",
+        "summary_content": "As a professional I have enjoyed working with many impressive people who I have learned from. Over the past three years I have worked with both front end and backend web technologies.",
+        "header": {
+          "experience": "Experience",
+          "education": "Education",
+          "skills": "Skills"
+        },
+        "e1" : {
+          "title": "Web Developer",
+          "durration": "The Lathe, March 2011 – Present (3 years 2 months) New York, NY",
+          "description": "Designing and updating web, mobile web and mobile apps using the following technologies: Servers (ASP.NET, PHP, Tomcat, Java, Spring Framework, NODEJS), DBs (Oracle, MySQL, SQL Server, MongoDB), Mobile apps (iOS), web development (CSS3, HTML5, jQuery). Experience with responsive web design and fallback development for legacy (IE) browsers. Experience with UI/UX design process."
+        },
+        "e2" : {
+          "title": "Developer/DBA",
+          "durration": "Apparently, Inc March 2012 – June 2013 (1 year 4 months) New York, NY",
+          "description": "Developing iOS Webkit modules using Jade, Stylus, client side Javascript and server side NodeJS Javascripting. Administrating and generating reports on MongoDB."
+        },
+        "e3" : {
+          "title": "Web Developer",
+          "durration": "Villas by Linda Smith September 2010 – March 2011 (7 months)",
+          "description": "Website developing and content administration."
+        },
+        "e4" : {
+          "title": "Helpdesk Supervisor",
+          "durration": "The National Academies August 2004 – March 2010 (5 years 8 months) Washington, DC",
+          "description": "Technolgoy support, training, reporting and management"
+        },
+        "e5" : {
+          "title": "Internship",
+          "durration": "Jane Goodall Institute August 2003 – December 2003 (5 months)",
+          "description": "Managing the membership access database. Reporting on Raiser's Edge Oracle database. Providing customer service to program members. Developing GIS component to system."
+        },
+        "e6" : {
+          "title": "10gen (the MongoDB company)",
+          "durration": "M101 Mongo for Developers 2012 – 2012",
+          "description": "Learned how to use MongoDB in the context of application development https://s3.amazonaws.com/edu-cert.10gen.com/downloads/e07a6da9252a4c6db970aa396b4ad71c/Certificate.pdf"
+        },
+        "e7" : {
+          "title": "American University",
+          "durration": "Science Masters; Applied Sciences degree focused; Bachelors, Biotechnology 2004 – 2006"
+        },
+        "e8" : {
+          "title": "University of Vermont",
+          "durration": "BS, Biology 1996 – 2000",
+          "description": "Designing and updating web, mobile web and mobile apps using the following technologies: Servers (ASP.NET, PHP, Tomcat, Java, Spring Framework, NODEJS), DBs (Oracle, MySQL, SQL Server, MongoDB), Mobile apps (iOS), web development (CSS3, HTML5, jQuery). Experience with responsive web design and fallback development for legacy (IE) browsers. Experience with UI/UX design process."
+        },
+        "e9" : {
+          "title": "Web Development",
+          "description": "AngularJS, NodeJS, MongoDB, Yeoman, Grunt, Bower, Foundation, Bootstrap, JQuery, CSS3"
+        },
+        "e10" : {
+          "title": "Mobile App Development",
+          "description": "iOS, Android, PhoneGap, CocoonJS"
+        },
+        "e11" : {
+          "title": "Database",
+          "description": "MongoDB, MySQL, Oracle"
+        }
+    },
+    "login": {
+        "title": "Authentification",
+        "form": {
+            "username": "Nom d'utilisateur",
+            "username.placeholder": "Votre nom d'utilisateur",
+            "password": "Mot de passe",
+            "password.placeholder": "Votre mot de passe",
+            "rememberme": "Garder la session ouverte",
+            "button": "Connexion"
+        },
+        "messages": {
+            "error": {
+                "authentication": "<strong>Erreur d'authentification!</strong> Veuillez vérifier vos identifiants de connexion."
+            }
+        }
+    },
+    "settings": {
+        "title": "Profil de l'utilisateur [{{username}}]",
+        "form": {
+            "firstname": "Prénom",
+            "firstname.placeholder": "Votre prénom",
+            "lastname": "Nom",
+            "lastname.placeholder": "Votre nom",
+            "email": "Email",
+            "email.placeholder": "Votre email",
+            "button": "Sauvegarder"
+        },
+        "messages" : {
+            "error": "<strong>Une erreur est survenue!</strong> Votre profil ne peut pas être sauvegardé.",
+            "success": "<strong>Votre profil a été sauvegardé!</strong>",
+            "validate": {
+                "firstname": {
+                    "required": "Votre prénom est requis.",
+                    "minlength": "Votre prénom doit comporter au moins un caractère",
+                    "maxlength": "Votre prénom ne doit pas comporter plus de 50 caractères"
+                },
+                "lastname": {
+                    "required": "Votre nom est requis.",
+                    "minlength": "Votre nom doit comporter au moins un caractère",
+                    "maxlength": "Votre nom ne doit pas comporter plus de 50 caractères"
+                },
+                "email": {
+                    "required": "Votre email est requis.",
+                    "minlength": "Votre email doit comporter au moins un caractère",
+                    "maxlength": "Votre email ne doit pas comporter plus de 50 caractères",
+                    "invalid": "Votre email n'est pas valide."
+                }
+            }
+        }
+    },
+    "password": {
+        "title": "Changer le mot de passe pour [<b>{{username}}</b>]",
+        "form": {
+            "newpassword": "Nouveau mot de passe",
+            "newpassword.placeholder": "Nouveau mot de passe",
+            "confirmpassword": "Confirmation du nouveau mot de passe",
+            "confirmpassword.placeholder": "Confirmation du nouveau mot de passe",
+            "button": "Sauvegarder"
+        },
+        "messages": {
+            "error": {
+                "global": "<strong>Une erreur est survenue!</strong> Le mot de passe n'a pas pu être modifié.",
+                "dontmatch" : "Le nouveau mot de passe et sa confirmation ne sont pas égaux!"
+            },
+            "success": "<strong>La mot de passe a été modifié!</strong>",
+            "validate": {
+                "newpassword": {
+                    "required": "Votre mot de passe est requis.",
+                    "minlength": "Votre mot de passe doit comporter au moins 5 caractères",
+                    "maxlength": "Votre mot de passe ne doit pas comporter plus de 50 caractères",
+                    "strength": "Robustesse du mot de passe:"
+                },
+                "confirmpassword": {
+                    "required": "Votre confirmation du mot de passe est requis.",
+                    "minlength": "Votre confirmation du mot de passe doit comporter au moins 5 caractères",
+                    "maxlength": "Votre confirmation du mot de passe ne doit pas comporter plus de 50 caractères"
+                }
+            }
+        }
+    },
+    "sessions": {
+        "title": "Sessions actives de [<b>{{username}}</b>]",
+        "table": {
+            "ipaddress": "Adresse IP",
+            "useragent": "User Agent",
+            "date": "Date",
+            "button": "Invalider"
+        },
+        "messages": {
+            "success": "<strong>Session a été invalidée!</strong>",
+            "error": "<strong>Une erreur est survenue!</strong> La session ne peut pas être invalidée."
+        }
+    },
+    "tracker": {
+        "title": "Activité des utilisateurs en temps réél",
+        "table": {
+            "userlogin": "Utilisateur",
+            "ipaddress": "Adresse IP",
+            "userAgent": "User agent",
+            "page": "Page en cours",
+            "time": "Heure"
+        }
+    },
+    "metrics": {
+        "title": "Métriques de l'application",
+        "refresh.button": "Rafraichir",
+        "health": {
+            "title": "Diagnostics",
+            "database": "Base de données: ",
+            "email": "Email: ",
+            "stacktrace": "Stacktrace"
+        },
+        "jvm": {
+            "title": "Métriques de la JVM",
+            "memory": {
+                "title": "Mémoire",
+                "total": "Mémoire totale",
+                "heap": "Mémoire \"Heap\"",
+                "nonheap": "Mémoire \"Non-Heap\""
+            },
+            "threads": {
+                "title": "Threads",
+                "all": "Tous",
+                "runnable": "Executable",
+                "timedwaiting": "Temps d'attente",
+                "waiting": "En attente",
+                "blocked": "Bloqué",
+                "dump": {
+                    "title": "Threads dump",
+                    "id": "Id :",
+                    "blockedtime": "Temps bloqué",
+                    "blockedcount": "Nb fois bloqué",
+                    "waitedtime": "Temps d'attente",
+                    "waitedcount": "Nb fois en attente",
+                    "lockname": "Nom du process bloquant",
+                    "stacktrace": "Stacktrace",
+                    "show": "Afficher",
+                    "hide": "Cacher"
+                }
+            },
+            "gc": {
+                "title": "Garbage collections",
+                "marksweepcount": "Total de \"Mark Sweep\"",
+                "marksweeptime": "Temps \"Mark Sweep\"",
+                "scavengecount": "Total \"Scavenge\"",
+                "scavengetime": "Temps \"Scavenge\""
+            },
+            "http": {
+                "title": "Requêtes HTTP requests (évènements par seconde)",
+                "active": "Requêtes actives :",
+                "total": "Requêtes totales :",
+                "table": {
+                    "code": "Code",
+                    "count": "Total",
+                    "mean": "Médian",
+                    "average": "Moyenne"
+                },
+                "code": {
+                    "ok": "Ok",
+                    "notfound": "Not found",
+                    "servererror": "Server Error"
+                }
+            }
+        },
+        "servicesstats": {
+            "title": "Statistiques des services (Temps en milliseconde)",
+            "table": {
+                "name": "Nom du server",
+                "count": "Total",
+                "mean": "Médian",
+                "min": "Min",
+                "max": "Max",
+                "p50": "p50",
+                "p75": "p75",
+                "p95": "p95",
+                "p99": "p99"
+            }
+        },
+        "ehcache": {
+            "title": "Statistiques Ehcache",
+            "cachename": "Nom du cache",
+            "objects": "Objets",
+            "hits": "Données existantes",
+            "misses": "Données non existantes",
+            "evictioncount": "Nombre de suppressions",
+            "mean": "Temps de réponse (ms)"
+        }
+    },
+    "logs": {
+        "title": "Logs",
+        "nbloggers": "Total de {{ total }} \"loggers\".",
+        "filter": "Filtrer",
+        "table": {
+            "name": "Nom",
+            "level": "Niveau"
+        }
+    },
+    "audits": {
+        "title": "Audits",
+        "filter": {
+            "title": "Filtrer par date",
+            "from": "De",
+            "to": "à",
+            "button": {
+                "weeks": "Semaines",
+                "today": "Aujourd'hui",
+                "clear": "Effacer",
+                "close": "Fermer"
+            }
+        },
+        "table": {
+            "header": {
+                "principal": "Utilisateur",
+                "date": "Date",
+                "status": "Status",
+                "data": "Autres données"
+            },
+            "data": {
+                "remoteAddress": "Adresse Distante :"
+            }
+        }
+    },
+    "errors": {
+        "title": "Page d'erreur!",
+        "403": "Vous n'avez pas les droits pour accéder à cette page."
+    },
+    "footer": "Ceci est votre pied de page"
+}

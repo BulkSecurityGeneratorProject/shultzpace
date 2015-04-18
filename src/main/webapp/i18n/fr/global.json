@@ -1,11 +1,12 @@
 {
     "global": {
-        "title": "shultzspace",
+        "title": "jhipster",
         "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
         "menu": {
             "home": "Accueil",
             "entities": {
                 "main": "Entités",
+                "resume": "Resume",
                 "additionalEntity": "JHipster will add addtional entities"
             },
             "account": {

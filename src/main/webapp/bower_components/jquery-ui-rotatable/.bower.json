@@ -1,0 +1,14 @@
+{
+  "name": "jquery-ui-rotatable",
+  "homepage": "https://github.com/godswearhats/jquery-ui-rotatable",
+  "_release": "2eb47646d8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2eb47646d8a0d594c5030dd7d5887dcd3e7b2969"
+  },
+  "_source": "git://github.com/godswearhats/jquery-ui-rotatable.git",
+  "_target": "*",
+  "_originalSource": "jquery-ui-rotatable",
+  "_direct": true
+}

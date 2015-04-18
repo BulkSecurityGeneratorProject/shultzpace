@@ -1,0 +1,340 @@
+{
+    "global": {
+        "title": "JHipster",
+        "browsehappy": "您使用的是过时的<strong>浏览器的</strong> 请. Please <a href=\"http://browsehappy.com/?locale=en\">升级您的浏览器</a> 来改善您的体验。",
+        "menu": {
+            "home": "家",
+            "account": {
+                "main": "帐户",
+                "settings": "设置",
+                "password": "密码",
+                "sessions": "会议",
+                "tracker": "用户跟踪",
+                "metrics": "指标",
+                "logs": "场记",
+                "audits": "审计",
+                "login": "认证",
+                "logout": "断开",
+                "apidocs": "断开"
+            },
+            "admin": "管理",
+            "language": "语"
+        },
+        "language": {
+            "da": "丹麦的",
+            "en": "英语",
+            "fr": "法国人",
+            "de": "德语",
+            "pl": "波兰语",
+            "cn": "中国的"
+        }
+    },
+    "main": {
+        "title": "欢迎您，约翰·舒尔茨的网站！",
+        "subtitle": "这是我的主页",
+        "callout": "这是一个个人网站。我是一名开发人员住在纽约市。下面是我的一些图片，可以自由地拖动它们",
+        "logged": {
+            "message": "您登录的用户 \"{{username}}\".",
+            "authenticated": "如果你想 <a href=\"#/login\">认证</a>, 你可以试试默认帐户:<br/>- Admnistrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\")."
+        },
+        "question": "如果您对JHipster任何问题:",
+        "link": {
+            "homepage": "JHipster 主页",
+            "stackoverflow": "JHipster 堆栈溢出",
+            "bugtracker": "JHipster 问题跟踪",
+            "contact": "联系 @java_hipster 上 Twitter"
+        },
+        "like": "如果你喜欢JHipster，不要忘了给我们的明星",
+        "github": "Github"
+    },
+    "resume":{
+        "title": "简历",
+        "summary": "总结",
+        "summary_content": "作为一个专业的我已经享受了许多令人印象深刻的人谁从我所学到的工作。在过去的三年里，我曾与两个前端和后端的Web技术。",
+        "header": {
+          "experience": "经验",
+          "education": "教育",
+          "skills": "技能"
+        },
+        "e1" : {
+          "title": "Web开发",
+          "durration": "车床2011年3月 - 至今（3年2个月）纽约，纽约",
+          "description": "设计和使用了以下技术更新网络，移动网络和移动应用程序：服务器（ASP.NET，PHP，Tomcat的，爪哇，Spring框架，的NodeJS），星展银行（甲骨文，MySQL和SQL Server中，MongoDB的），移动应用程序（IOS），网络的发展（CSS3，HTML5和jQuery）。有响应的网页设计和开发后备旧版（IE）浏览器的体验。与UI / UX设计过程中的经验。"
+        },
+        "e2" : {
+          "title": "开发人员/ DBA",
+          "durration": "显然，公司2012年3月 - 2013年6月（1年4个月）纽约，纽约",
+          "description": "用玉，手写笔，客户端的JavaScript和服务器端的NodeJS JavaScript编程开发的iOS的Webkit模块。行政的和生成的MongoDB的报告。"
+        },
+        "e3" : {
+          "title": "Web开发",
+          "durration": "别墅由2010年琳达·史密斯月 - 2011年3月（7月）",
+          "description": "网站发展和内容管理。"
+        },
+        "e4" : {
+          "title": "服务台主管",
+          "durration": "美国国家科学院2004年8月 - 2010年3月（5年8个月）华盛顿特区",
+          "description": "技术支持，培训，报告和管理"
+        },
+        "e5" : {
+          "title": "实习",
+          "durration": "珍古道尔研究会2003年8月 - 2003年12月（5月）",
+          "description": "管理成员访问数据库。报告雷塞的边缘Oracle数据库上。提供客户服务，计划成员。开发GIS组件系统。"
+        },
+        "e6" : {
+          "title": "10gen公司（MongoDB的公司）",
+          "durration": "M101蒙戈面向开发人员的2012至2012年",
+          "description": "学会了如何使用MongoDB的在应用程序开发的背景下 https://s3.amazonaws.com/edu-cert.10gen.com/downloads/e07a6da9252a4c6db970aa396b4ad71c/Certificate.pdf"
+        },
+        "e7" : {
+          "title": "美国大学",
+          "durration": "科学大师;应用科学学士学位重点;学士，生物技术2004 - 2006"
+        },
+        "e8" : {
+          "title": "佛蒙特大学",
+          "durration": "BS, 生物学2096至00年",
+          "description": "设计和使用了以下技术更新网络，移动网络和移动应用程序：服务器（ASP.NET，PHP，Tomcat的，爪哇，Spring框架，的NodeJS），星展银行（甲骨文，MySQL和SQL Server中，MongoDB的），移动应用程序（IOS），网络的发展（CSS3，HTML5和jQuery）。有响应的网页设计和开发后备旧版（IE）浏览器的体验。与UI / UX设计过程中的经验。"
+        },
+        "e9" : {
+          "title": "Web开发",
+          "description": "AngularJS, NodeJS, MongoDB, Yeoman, Grunt, Bower, Foundation, Bootstrap, JQuery, CSS3"
+        },
+        "e10" : {
+          "title": "移动应用开发",
+          "description": "iOS, Android, PhoneGap, CocoonJS"
+        },
+        "e11" : {
+          "title": "数据库",
+          "description": "MongoDB, MySQL, Oracle"
+        }
+    },
+    "login": {
+        "title": "认证",
+        "form": {
+            "username": "注册",
+            "username.placeholder": "您的登录信息",
+            "password": "密码",
+            "password.placeholder": "您的密码",
+            "rememberme": "自动登录",
+            "button": "认证"
+        },
+        "messages": {
+            "error": {
+                "authentication": "<strong>验证失败！</strong> 请检查您的凭据，然后再试一次。"
+            }
+        }
+    },
+    "settings": {
+        "title": "用户设置 [<b>{{username}}</b>]",
+        "form": {
+            "firstname": "名字",
+            "firstname.placeholder": "您的名字",
+            "lastname": "姓",
+            "lastname.placeholder": "您的姓氏",
+            "email": "电子邮件",
+            "email.placeholder": "您的电子邮件",
+            "button": "节省"
+        },
+        "messages": {
+            "error": "<strong>发生错误！</strong> 设置无法保存。",
+            "success": "<strong>设置保存！</strong>",
+            "validate": {
+                "firstname": {
+                    "required": "你的名字是必需的。",
+                    "minlength": "您的名字要求是至少1个字符",
+                    "maxlength": "您的名字不能超过50个字符"
+                },
+                "lastname": {
+                    "required": "您的姓氏是必需的。",
+                    "minlength": "您的姓氏必须是至少1个字符",
+                    "maxlength": "您的姓氏不能超过50个字符"
+                },
+                "email": {
+                    "required": "您的电子邮件是必需的。",
+                    "invalid": "您的电子邮件是无效的。",
+                    "minlength": "您的电子邮件要求是至少1个字符",
+                    "maxlength": "您的电子邮件不能超过50个字符"
+                }
+            }
+        }
+    },
+    "password": {
+        "title": "密码 [<b>{{username}}</b>]",
+        "form": {
+            "newpassword": "新密码",
+            "newpassword.placeholder": "新密码",
+            "confirmpassword": "确认新密码",
+            "confirmpassword.placeholder": "确认新密码",
+            "button": "节省"
+        },
+        "messages": {
+            "error": {
+                "global": "<strong>发生错误！</strong> 该密码不能被改变。",
+                "dontmatch" : "该密码并确认不匹配！"
+            },
+            "success": "<strong>密码改了！</strong>",
+            "validate": {
+                "newpassword": {
+                    "required": "您需要提供密码。",
+                    "minlength": "您的密码必须至少为5个字符",
+                    "maxlength": "您的密码不能超过50个字符",
+                    "strength": "密码强度:"
+                },
+                "confirmpassword": {
+                    "required": "需要您的确认密码。",
+                    "minlength": "您的确认密码必须至少为5个字符",
+                    "maxlength": "您的确认密码不能超过50个字符"
+                }
+            }
+        }
+    },
+    "sessions": {
+        "title": "活动会话 [<b>{{username}}</b>]",
+        "table": {
+            "ipaddress": "互联网协议地址",
+            "useragent": "用户代理",
+            "date": "日期",
+            "button": "废止"
+        },
+        "messages": {
+            "success": "<strong>会话无效！</strong>",
+            "error": "<strong>发生错误！</strong> 会话不能失效。"
+        }
+
+    },
+    "tracker": {
+        "title": "实时用户活动",
+        "table": {
+            "userlogin": "用户",
+            "ipaddress": "互联网协议地址",
+            "userAgent": "用户代理",
+            "page": "当前页",
+            "time": "时间"
+        }
+    },
+    "metrics": {
+        "title": "申请指标",
+        "refresh.button": "刷新",
+        "health": {
+            "title": "健康检查",
+            "database": "数据库: ",
+            "email": "电子邮件: ",
+            "stacktrace": "堆栈跟踪"
+        },
+        "jvm": {
+            "title": "JVM 指标",
+            "memory": {
+                "title": "记忆",
+                "total": "总记忆体",
+                "heap": "堆内存",
+                "nonheap": "非堆内存"
+            },
+            "threads": {
+                "title": "主题",
+                "all": "所有",
+                "runnable": "可运行",
+                "timedwaiting": "定时等待",
+                "waiting": "等候",
+                "blocked": "封锁",
+                "dump": {
+                    "title": "线程转储",
+                    "id": "Id: ",
+                    "blockedtime": "封锁时间",
+                    "blockedcount": "阻塞数",
+                    "waitedtime": "等待时间",
+                    "waitedcount": "等待计数",
+                    "lockname": "锁名",
+                    "stacktrace": "堆栈跟踪",
+                    "show": "节目",
+                    "hide": "隐藏"
+                }
+            },
+            "gc": {
+                "title": "垃圾回收",
+                "marksweepcount": "马克扫描次数",
+                "marksweeptime": "马克扫描时间",
+                "scavengecount": "清除计数",
+                "scavengetime": "清除时间"
+            },
+            "http": {
+                "title": "HTTP请求（每秒事件）",
+                "active": "活动的请求:",
+                "total": "总的要求:",
+                "table": {
+                    "code": "码",
+                    "count": "算",
+                    "mean": "平均值",
+                    "average": "平均"
+                },
+                "code": {
+                    "ok": "行",
+                    "notfound": "未找到",
+                    "servererror": "服务器错误"
+                }
+            }
+        },
+        "servicesstats": {
+            "title": "服务统计（时间，单位为毫秒",
+            "table": {
+                "name": "服务名称",
+                "count": "算",
+                "mean": "意味着",
+                "min": "最低限度",
+                "max": "最大",
+                "p50": "p50",
+                "p75": "p75",
+                "p95": "p95",
+                "p99": "p99"
+            }
+        },
+        "ehcache": {
+            "title": "Ehcache statistics",
+            "cachename": "缓存 名称",
+            "objects": "对象",
+            "hits": "点击",
+            "misses": "小姐",
+            "evictioncount": "驱逐数",
+            "mean": "平均获取时间 (ms)"
+        }
+    },
+    "logs": {
+        "title": "航海日志",
+        "nbloggers": "有 {{ total }} 航海日志.",
+        "filter": "过滤",
+        "table": {
+            "name": "名称",
+            "level": "阶段"
+        }
+    },
+    "audits": {
+        "title": "审计",
+        "filter": {
+            "title": "每日期过滤器",
+            "from": "从",
+            "to": "至",
+            "button": {
+                "weeks": "周",
+                "today": "今天",
+                "clear": "明确",
+                "close": "关闭"
+            }
+        },
+        "table": {
+            "header": {
+                "principal": "用户",
+                "date": "日期",
+                "status": "态",
+                "data": "额外的数据"
+            },
+            "data": {
+                "remoteAddress": "远程地址:"
+            }
+        }
+
+    },
+    "errors": {
+        "title": "错误页面!",
+        "403": "您没有权限访问该页面。"
+    },
+    "footer": "这是你的页脚"
+}
