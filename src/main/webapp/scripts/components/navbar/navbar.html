@@ -17,6 +17,12 @@
                         <span translate="global.menu.home">Home</span>
                     </a>
                 </li>
+                <li ui-sref-active="active">
+                    <a ui-sref="resume">
+                        <span class="glyphicon glyphicon-file"></span>
+                        <span>Resume</span>
+                    </a>
+                </li>
                 <li ui-sref-active="active" ng-switch-when="true" class="dropdown pointer">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="">
                                 <span>
@@ -28,8 +34,7 @@
                                 </span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li ui-sref-active="active" ><a ui-sref="resume"><span class="glyphicon glyphicon-asterisk"></span>
-                        &#xA0;<span translate="global.menu.entities.resume">resume</span></a></li>
+                        <li ui-sref-active="active" ></li>
                         <!-- JHipster will add entities to the menu here -->
                     </ul>
                 </li>
