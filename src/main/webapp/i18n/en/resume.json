@@ -1,17 +1,63 @@
 {
-    "shultzspaceApp": {
-        "resume" : {
-            "home": {
-                "title": "Resumes",
-                "createLabel": "Create a new Resume",
-                "createOrEditLabel": "Create or edit a Resume"
-            },
-            "delete": {
-                "question": "Are you sure you want to delete Resume {{ id }}?"
-            },
-            "detail": {
-                "title": "Resume"
-            }
-        }
-    }
+  "resume":{
+      "title": "Resume",
+      "summary": "Summary",
+      "summary_content": "I am a full stack developer with experience developing for web and mobile technologies. Currently I am in preparing my first native Android app for release. I have a diverse career and academic background with a great emphasis on Life Sciences. There are many resources I used to keep current with emerging technologies: Github, StackoverFlow & Code School.",
+      "header": {
+        "experience": "Experience",
+        "education": "Education",
+        "skills": "Skills"
+      },
+      "e1" : {
+        "title": "Web Developer",
+        "durration": "The Lathe, March 2011 – January 2015 (4 years 10 months) New York, NY",
+        "description": "Designing and updating web, mobile web and mobile apps using the following technologies: Servers (ASP.NET, PHP, Tomcat, Java, Spring Framework, NODEJS), DBs (Oracle, MySQL, SQL Server, MongoDB), Mobile apps (iOS), web development (CSS3, HTML5, jQuery). Experience with responsive web design and fallback development for legacy (IE) browsers. Experience with UI/UX design process."
+      },
+      "e2" : {
+        "title": "Developer/DBA",
+        "durration": "Apparently, Inc March 2012 – June 2013 (1 year 4 months) New York, NY",
+        "description": "Developing iOS Webkit modules using Jade, Stylus, client side Javascript and server side NodeJS Javascripting. Administrating and generating reports on MongoDB."
+      },
+      "e3" : {
+        "title": "Web Developer",
+        "durration": "Villas by Linda Smith September 2010 – March 2011 (7 months)",
+        "description": "Website developing and content administration."
+      },
+      "e4" : {
+        "title": "Helpdesk Supervisor",
+        "durration": "The National Academies August 2004 – March 2010 (5 years 8 months) Washington, DC",
+        "description": "Technolgoy support, training, reporting and management"
+      },
+      "e5" : {
+        "title": "Internship",
+        "durration": "Jane Goodall Institute August 2003 – December 2003 (5 months)",
+        "description": "Managing the membership access database. Reporting on Raiser's Edge Oracle database. Providing customer service to program members. Developing GIS component to system."
+      },
+      "e6" : {
+        "title": "10gen (the MongoDB company)",
+        "durration": "M101 Mongo for Developers 2012 – 2012",
+        "description": "Learned how to use MongoDB in the context of application development https://s3.amazonaws.com/edu-cert.10gen.com/downloads/e07a6da9252a4c6db970aa396b4ad71c/Certificate.pdf"
+      },
+      "e7" : {
+        "title": "American University",
+        "durration": "Science Masters; Applied Sciences degree focused; Bachelors, Biotechnology 2004 – 2006"
+      },
+      "e8" : {
+        "title": "University of Vermont",
+        "durration": "BS, Biology 1996 – 2000",
+        "description": "Designing and updating web, mobile web and mobile apps using the following technologies: Servers (ASP.NET, PHP, Tomcat, Java, Spring Framework, NODEJS), DBs (Oracle, MySQL, SQL Server, MongoDB), Mobile apps (iOS), web development (CSS3, HTML5, jQuery). Experience with responsive web design and fallback development for legacy (IE) browsers. Experience with UI/UX design process."
+      },
+      "e9" : {
+        "title": "Web Development",
+        "description": "AngularJS, NodeJS, MongoDB, Yeoman, Grunt, Bower, Foundation, Bootstrap, JQuery, CSS3"
+      },
+      "e10" : {
+        "title": "Mobile App Development",
+        "description": "iOS, Android, PhoneGap, CocoonJS"
+      },
+      "e11" : {
+        "title": "Database",
+        "description": "MongoDB, MySQL, Oracle"
+      }
+  }
 }
