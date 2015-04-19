@@ -1,3 +1,7 @@
+@font-face {
+	font-family:momstypewriterregular;src:url(../styles/fonts/moms_typewriter-webfont.eot?#iefix) format(embedded-opentype),url(../styles/fonts/moms_typewriter-webfont.woff2) format(woff2),url(../styles/fonts/moms_typewriter-webfont.woff) format(woff),url(../styles/fonts/moms_typewriter-webfont.ttf) format(truetype),url(../styles/fonts/moms_typewriter-webfont.svg#momstypewriterregular) format(svg);font-weight:400;font-style:normal;
+}
+
 body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -145,6 +149,9 @@ ul#strength {
     width:20px;
 }
 /* end Password strength bar style */
+h1, h2, h3 {
+  font-family: 'momstypewriterregular';
+}
 body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -289,29 +296,45 @@ p {
   display: inline-block;
   width: 463px;
   height: 640px;
-  background-image: url("../images/john_g_shultz_paper.jpg");
   background-position: center center;
   background-repeat: no-repeat;
+  opacity:0;
+}
+.john_g_shultz.show {
+  background-image: url("../images/john_g_shultz_paper.jpg");
+  opacity: 1;
+  -webkit-animation: appear 5s 1;
+  -moz-animation: appear 5s 1;
+  -o-animation: appear 5s 1;
+  animation: appear 5s 1;
 }
 
 .john_g_shultz:hover {
-  background-image: url("../images/john_g_shultz.jpg");
   animation: animation 1s;
   animation-iteration-count: 1;
 }
-
+/*
+.john_g_shultz.show:hover {
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../images/john_g_shultz.jpg");
+}
 @keyframes animation {
     0% {
-      background-size: 120%;
+      opacity: 0.3;
+      background-image: url("../images/john_g_shultz_paper.jpg"), url("../images/john_g_shultz.jpg");
     }
     50% {
-      background-size: 180%;
+      opacity: 0.5;
+      background-image: url("../images/john_g_shultz.jpg");
     }
     100% {
-      background-size: 150%;
+      opacity: 1;
+      background-image: url("../images/john_g_shultz.jpg");
     }
 }
-
+*/
 .hand {
     cursor: pointer;
 }
@@ -458,9 +481,8 @@ height: 100px;
 .resume .header {
   border: none;
 }
-.resume h2 {
-  margin-left: 20px;
-}
+.resume h2,
+.resume h3,
 .resume h4 {
   margin-left: 20px;
 }

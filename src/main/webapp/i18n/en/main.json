@@ -1,18 +1,20 @@
 {
-    "main": {
-        "title": "Welcome, Java Hipster!",
-        "subtitle": "This is your homepage",
-        "logged": {
-            "message": "You are logged in as user \"{{username}}\"."
-        },
-        "question": "If you have any question on JHipster:",
-        "link": {
-            "homepage": "JHipster homepage",
-            "stackoverflow": "JHipster on Stack Overflow",
-            "bugtracker": "JHipster bug tracker",
-            "contact": "contact @java_hipster on Twitter"
-        },
-        "like": "If you like JHipster, don't forget to give us a star on",
-        "github": "Github"
-    }
+  "main": {
+      "title": "Welcome, to John Shultz's Website!",
+      "subtitle": "This is my homepage",
+      "callout": "This is a personal website. I am a developer living in New York City. Here are some of my images, feel free to drag them around",
+      "logged": {
+          "message": "You are logged in as user \"{{username}}\".",
+          "authenticated": "If you want to <a href=\"#/login\">authenticate</a>, you can try the default accounts:<br/>- Admnistrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\")."
+      },
+      "question": "If you have any question on JHipster:",
+      "link": {
+          "homepage": "JHipster homepage",
+          "stackoverflow": "JHipster on Stack Overflow",
+          "bugtracker": "JHipster bug tracker",
+          "contact": "contact @java_hipster on Twitter"
+      },
+      "like": "If you like JHipster, don't forget to give us a star on",
+      "github": "Github"
+  }
 }
