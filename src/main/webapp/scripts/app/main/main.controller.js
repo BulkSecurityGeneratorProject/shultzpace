@@ -42,7 +42,7 @@ angular.module('shultzspaceApp')
                 $(this).addClass("active");
               });
               $scope.$apply(function () {
-                $scope.portrait=true;
+                $scope.loaded=true;
               });
             }, 1000);
 

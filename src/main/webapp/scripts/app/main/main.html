@@ -1,11 +1,11 @@
-<div class="home" ng-cloak>
+<div class="home {{(loaded) ? 'loaded' : '' }} " ng-cloak>
     <div class="row">
       <div class="col-md-4">
-          <span class="{{(portrait) ? 'show' : '' }} john_g_shultz img-responsive img-rounded"></span>
+          <span class="john_g_shultz img-responsive img-rounded"></span>
       </div>
       <div class="col-md-7 alert-warning">
           <div class="col-md-12">
-              <p translate="main.callout">This is a personal website. I am a developer living in New York City. Here are some of my images, feel free to drag them around</p>
+              <p translate="main.callout">This is a personal website. I am a developer living in New York City. <span class="desktop">Here are some of my images, feel free to drag them around</span></p>
           </div>
       </div>
       <div class="gallery col-md-7">

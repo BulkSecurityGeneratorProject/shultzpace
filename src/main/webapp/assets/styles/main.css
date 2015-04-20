@@ -1,5 +1,5 @@
 @font-face {
-	font-family:momstypewriterregular;src:url(../styles/fonts/moms_typewriter-webfont.eot?#iefix) format(embedded-opentype),url(../styles/fonts/moms_typewriter-webfont.woff2) format(woff2),url(../styles/fonts/moms_typewriter-webfont.woff) format(woff),url(../styles/fonts/moms_typewriter-webfont.ttf) format(truetype),url(../styles/fonts/moms_typewriter-webfont.svg#momstypewriterregular) format(svg);font-weight:400;font-style:normal;
+	font-family:momstypewriterregular;src:url(../fonts/moms_typewriter-webfont.eot?#iefix) format(embedded-opentype),url(../fonts/moms_typewriter-webfont.woff2) format(woff2),url(../fonts/moms_typewriter-webfont.woff) format(woff),url(../fonts/moms_typewriter-webfont.ttf) format(truetype),url(../fonts/moms_typewriter-webfont.svg#momstypewriterregular) format(svg);font-weight:400;font-style:normal;
 }
 
 body {
@@ -216,11 +216,19 @@ p {
   padding: 0px;
 }
 .home {
-  background-image: url("../images/background_subway.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   padding: 19px;
+	opacity: 0;
+}
+.loaded.home {
+	background-image: url("../images/background_subway.jpg");
+	opacity: 1;
+  -webkit-animation: appear 5s 1;
+  -moz-animation: appear 5s 1;
+  -o-animation: appear 5s 1;
+  animation: appear 5s 1;
 }
 .fun_house {
   padding: 19px;
@@ -300,7 +308,7 @@ p {
   background-repeat: no-repeat;
   opacity:0;
 }
-.john_g_shultz.show {
+.loaded .john_g_shultz {
   background-image: url("../images/john_g_shultz_paper.jpg");
   opacity: 1;
   -webkit-animation: appear 5s 1;
@@ -540,6 +548,9 @@ and (max-width : 1000px) {
 /* mobile screens ----------- */
 @media only screen
 and (max-width : 480px) {
+	.desktop {
+		display: none;
+	}
   .alert-warning {
     margin: 20px!important;
     padding: 0px!important;
