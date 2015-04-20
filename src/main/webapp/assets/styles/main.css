@@ -1,3 +1,13 @@
+* {
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;  	
+}
+
 @font-face {
 	font-family:momstypewriterregular;src:url(../fonts/moms_typewriter-webfont.eot?#iefix) format(embedded-opentype),url(../fonts/moms_typewriter-webfont.woff2) format(woff2),url(../fonts/moms_typewriter-webfont.woff) format(woff),url(../fonts/moms_typewriter-webfont.ttf) format(truetype),url(../fonts/moms_typewriter-webfont.svg#momstypewriterregular) format(svg);font-weight:400;font-style:normal;
 }
@@ -316,12 +326,12 @@ p {
   -o-animation: appear 5s 1;
   animation: appear 5s 1;
 }
-
+/*
 .john_g_shultz:hover {
   animation: animation 1s;
   animation-iteration-count: 1;
 }
-/*
+
 .john_g_shultz.show:hover {
   background-color: transparent;
   background-position: center center;

@@ -2,7 +2,7 @@
     "main": {
         "title": "Bienvenue, Java Hipster !",
         "subtitle": "Ceci est votre page d'accueil",
-        "callout": "Ce est un site perso je suis un développeur de vie à New York Voici certaines de mes images, ne hésitez pas à les traîner",
+        "callout": "Ce est un site perso je suis un développeur de vie à New York. <span class=\"desktop\">Voici certaines de mes images, ne hésitez pas à les traîner</span>",
         "logged": {
             "message": "Vous êtes connecté en tant que \"{{username}}\"."
         },
